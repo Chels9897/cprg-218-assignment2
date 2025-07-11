@@ -1,11 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@<weight>&display=swap');
-html {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    background-color: #f4f4f4;
-    color: #333;
-}
 
 *{
     box-sizing: border-box;
@@ -13,8 +7,16 @@ html {
     padding: 10px;
 }
 
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    background-color: #C46D5E;
+    color: #253D5E;
+}
+
 #hero {
     width: 100%;
     height: 100vh;
-    background-image: url(LuisJCorniel-1.avif);
+    background-image: url(https://unsplash.com/photos/cozy-and-modern-living-space-with-bohemian-decor-zZUvDl5Ez7w) no-repeat center/cover;
 }
+
