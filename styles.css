@@ -51,6 +51,7 @@ nav{
 }
 
 /* Hero Section */
+
 #hero {
     display: flex;
     width: 100%;
@@ -66,7 +67,6 @@ nav{
     flex-direction: column;
     align-items: center;  
 }
-
 
 /* Card Section*/
 
@@ -90,4 +90,15 @@ nav{
     border-radius: 8px;
     max-width: 100%;
     height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #a7cecb;
+    color: #253D5E;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
