@@ -16,7 +16,7 @@ html {
 /* Logo and Navigation */
 .logo img {
     width: 100px;
-    height: auto;
+    height: 50%;
     border-radius: 10px;
 }
 .logo {
@@ -90,6 +90,15 @@ nav{
     border-radius: 8px;
     max-width: 100%;
     height: auto;
+}
+
+/* video section */
+#video-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 /* Footer */
