@@ -11,7 +11,7 @@ html {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     background-color: #C46D5E;
-    color: #253D5E;
+    color: #fff;
 }
 /* Logo and Navigation */
 .logo img {
@@ -30,12 +30,20 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #253D5E;
 }
 
 .nav-links ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links ul li a:hover {
+    color: #f56960;
+    text-decoration: none;
 }
 
 /* responsive design*/
@@ -82,7 +90,7 @@ nav{
     border-radius: 15px;
     margin: 10px;
     padding: 30px;
-    width: 300px;
+    width: 600px;
     text-align: center;
 }
 
@@ -92,13 +100,36 @@ nav{
     height: auto;
 }
 
-/* video section */
-#video-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+/* Content Section */
+.content {
+    background-color: #a7cecb;
+    color: #253D5E;
     padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* video section */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-height: 400px;
+    margin: 40px 0;
+}
+
+.video-container .card {
+    background-color: #daa588;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */
